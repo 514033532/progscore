@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "progscore"
+version = "0.1.0"
+description = "Single-sample programme scoring and deconvolution for bulk omics"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy", "scipy", "pandas", "scikit-learn"]
+
+[project.scripts]
+progscore = "progscore.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["progscore*"]
