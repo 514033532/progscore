@@ -103,4 +103,4 @@ python -m pytest tests/ -q
 
 ## Citation
 
-Please cite the accompanying manuscript.
+Please cite the accompanying manuscript. A cross-modal programme similarity score (CMPS) and a benchmark of single-sample scoring and deconvolution estimators for cell-state programme scoring in bulk proteomics,zhang han ,etc.
